@@ -16,7 +16,7 @@ public class StudentDetailsCommandLineRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-//        repository.save(new Student(1,"Anuj","Pune","CS"));
-//        repository.save(new Student(2,"Santosh","Pune","CS"));
+        repository.save(new Student(1,"Anuj","Pune","CS"));
+        repository.save(new Student(2,"Santosh","Pune","CS"));
     }
 }
